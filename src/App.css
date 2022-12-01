@@ -1,0 +1,57 @@
+.Pizza{
+height: 80%;
+width: 80%;
+position: relative;
+}
+.pineapple{
+height: 40%;
+width: 50%;
+position: relative;
+margin-left: 10%;
+margin-top:-110%;
+}
+.Besal{
+    height: 100%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    margin-top: -85%;
+}
+.Pizza{
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+.Pizzaclass{
+    position: absolute;
+   top: 0;
+   right: 0;
+   height:100%;
+   width:100%;
+}
+b{
+    color:darkslateblue ;
+}
+.Customer_Name{
+width: 100%;
+border: 2px solid black;
+}
+
+@media screen and (max-width:300px){
+    label{
+
+        font-size: x-small;
+    };
+};
+@media screen and (max-width:300px){
+    b{
+
+        font-size: x-small;
+    };
+};
+@media screen and (max-width:300px){
+    i{
+        font-size: x-small;
+    };
+};
